@@ -1,0 +1,390 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100..800&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    /* border: 1px solid red; */
+}
+.bg{
+    height: 100vh;
+    width: 100%;
+    background-color:#1a2128;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    height: 90%;
+    width: 70%;
+    -webkit-box-shadow: 21px 11px 0px 0px rgba(0,0,0,1);
+-moz-box-shadow: 21px 11px 0px 0px rgba(0,0,0,1);
+box-shadow: 21px 11px 0px 0px rgba(0,0,0,1);
+    background: rgb(0,0,0);
+    background: linear-gradient(179deg, rgba(0,0,0,1) 0%, rgba(240,253,255,1) 0%, rgb(190, 188, 246) 100%, rgba(0,0,0,1) 100%);
+}
+.nav{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-inline: 20px;
+    justify-content: space-between;
+}
+.nav .start{
+    height: auto;
+    width: 22%;
+    display: flex;
+    align-items: center;
+}
+.start i{
+    font-size: 1.5em;
+    
+}
+
+
+.nav ul{
+    height: auto;
+    width: 30%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+#menubars{
+    display: none;
+}
+.last{
+    height: auto;
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.last button{
+    height: 35px;
+    width: 130px;
+    background-color: black;
+    color: white;
+    font-size: 0.7em;
+    border-radius: 5px;
+} 
+.last p{
+    font-size: 0.9em;
+}
+.last em{
+    font-weight: bold;
+    font-style: normal;
+}
+
+.nav ul li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    font-size: 0.7em;
+    font-weight: bold;
+}
+.container .home-page{
+    height: 72%;
+        width: 100%;
+        display: flex;
+    }
+.home-page .left-part{
+    height: 100%;
+    width: 60%;
+    padding-left: 8%;
+    display: flex;
+    padding-block: 30px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.left-part .line1{
+    height: 45px;
+    width: 160px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.line1 .left{
+    height: 100%;
+    width: 30%;
+}
+.line1 .left img{
+    height: 100%;
+    width: 100%;
+}
+.line1 .right{
+    height: 100%;
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.line1 .right p{
+    font-size: 0.6em;
+    font-weight: bold;
+    color:rgb(95, 93, 93);
+}
+.left-part .line2 h1{
+    font-size: 7.5em;
+    font-weight: 450;
+}
+.left-part .line3{
+    height: auto;
+    width: 100%;
+    display: flex;
+}
+.line3 .text{
+    height: auto;
+    width: 50%;
+}
+.line3 .text p{
+    font-size: 0.6em;
+    font-weight: bold;
+    margin-block: 10px;
+    color: rgb(92, 91, 91);
+}
+.line3 .text i{
+    font-size: 1.5em;
+}
+.home-page .right-part{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right-part img{
+    height: 80%;
+    width: 100%;
+}
+.logos-line{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    padding-inline: 7%;
+    justify-content: space-between;
+}
+.logos-line .image{
+    height: 100%;
+    width: auto;
+    display: flex;
+    align-items: center;
+}
+.logos-line #rakuten{
+    height: 40px;
+    width: 80px;
+}
+.logos-line #ncr{
+    height: 40px;
+    width: 80px;
+}
+.logos-line #monday{
+    height: 40px;
+    width: 120px;
+}
+.logos-line #disney{
+    height: 50px;
+    width: 80px;
+}
+#dr-box{
+    height: 100%;
+    width: auto;
+    display: flex;
+}
+.logos-line #dropbox{
+    height: 30px;
+    width: 30px;
+}
+.last-bar{
+    height: 8%;
+    width: 100%;
+    background-color: #7672f5;
+    padding-inline: 3%;
+    
+
+}
+.last-bar ul{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    list-style: none; 
+    font-weight: bold;
+    
+    
+} 
+.last-bar ul li{
+    height: 100%;
+    width: 20%;
+    font-size: 0.8em;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+li i{
+    font-weight:bolder;
+    font-size: 1em;
+}
+.last-bar ul #Compliant{
+    justify-content: space-between;
+}
+
+
+/* responsive css code */
+@media (max-width:1200px) {
+    .bg{
+        height: auto;
+        width: 100%;
+        background-color:#1a2128;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-block: 50px;
+
+    }
+    .container{
+        height: auto;
+        width: 90%;
+
+        
+    }
+    .nav{
+        height: 7%;
+        padding-block: 10px;
+        width: 100%;
+       
+    }
+    
+    .nav ul {
+        display: none;
+    }
+    .nav .start{
+        height: auto;
+        width: 200px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .last{
+        height: auto;
+        width: 230px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .container .home-page{
+        height: 80%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+    .home-page .left-part{
+        height: 50%;
+        width: 100%;
+        padding-inline: 8%;
+        display: flex;
+        padding-block: 30px;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .home-page .right-part{
+        height: 50%;
+        width: 100%;
+        display: flex;
+        padding-block: 30px;
+        align-items: center;
+        border-top: 1.5px solid #9996f4;
+        border-bottom: 1.5px solid #9996f4;
+         justify-content: center;
+    }
+    .right-part img{
+        height: 30%;
+        width: 30%;
+    }
+    .logos-line{
+        height: 7%;
+        width: 100%;
+        display: flex;
+        padding-inline: 7%;
+        padding-block: 10px;
+        justify-content: space-between;
+    }
+
+
+    .logos-line #rakuten{
+        height: 30px;
+        width: 60px;
+    }
+    .logos-line #ncr{
+        height: 30px;
+        width: 60px;
+    }
+    .logos-line #monday{
+        height: 30px;
+        width: 60px;
+    }
+    .logos-line #disney{
+        height: 40px;
+        width: 60px;
+    }
+    /* #dr-box{
+      display: none;
+    } */
+    
+    /*  */
+    .last-bar{
+        height: 7%;
+    }
+    .last-bar ul{
+    height: auto;
+    width: 100%;
+    padding-block: 20px;
+    text-align: center;
+   justify-content: space-between;    
+} 
+    #Compliant{
+        display: none;
+    }
+}
+
+@media (max-width:600px) {
+    
+    .nav .last{
+        display: none;
+    }
+    .left-part .line2 h1{
+        font-size: 4em;
+    }
+    #menubars{
+        display: inline;
+        font-size: 1.2em;
+    }
+    .line3 .text h4{
+        font-size: 0.8em;
+    }
+    .last-bar ul{
+        padding-block: 10px;
+        }
+    .last-bar ul li{
+        height: 100%;
+        width: 20%;
+        font-size: 0.5em;
+    }
+    .home-page .right-part{
+        height: 50%;
+        width: 100%;
+        display: flex;
+        padding-block: 15px;
+        align-items: center;
+        justify-content: center;
+    }
+    .right-part img{
+        height: 50%;
+        width: 50%;
+    }
+    #dr-box{
+        display: none;
+      }
+}
